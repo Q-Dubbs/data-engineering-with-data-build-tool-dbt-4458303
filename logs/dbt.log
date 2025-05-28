@@ -1,0 +1,30 @@
+[0m09:05:13.026848 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d2510e161a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d250ecd4e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d250ecd4df0>]}
+
+
+============================== 09:05:13.033717 | 15e3ef92-0e43-491e-b0f4-0aec49fe3e26 ==============================
+[0m09:05:13.033717 [info ] [MainThread]: Running with dbt=1.6.1
+[0m09:05:13.034333 [debug] [MainThread]: running dbt with arguments {'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'partial_parse': 'True', 'debug': 'False', 'fail_fast': 'False', 'introspect': 'True', 'log_path': 'logs', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'no_print': 'None', 'log_format': 'default', 'printer_width': '80', 'indirect_selection': 'eager', 'static_parser': 'True', 'version_check': 'True', 'quiet': 'False', 'invocation_command': 'dbt init', 'warn_error': 'None', 'use_colors': 'True', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'profiles_dir': '/home/vscode/.dbt'}
+[0m09:05:13.034910 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/vscode/.dbt')}
+[0m09:05:13.035349 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m09:05:32.486200 [debug] [MainThread]: Starter project path: /home/vscode/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m09:05:32.490400 [info ] [MainThread]: 
+Your new dbt project "nyc_parking_violation" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:05:32.490993 [info ] [MainThread]: Setting up your profile.
+[0m09:05:34.933317 [info ] [MainThread]: No sample profile found for duckdb.
+[0m09:05:34.934131 [debug] [MainThread]: Command `dbt init` succeeded at 09:05:34.933984 after 21.91 seconds
+[0m09:05:34.934577 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d2510e161a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d2512fb0670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d250eb60580>]}
+[0m09:05:34.935024 [debug] [MainThread]: Flushing usage events
