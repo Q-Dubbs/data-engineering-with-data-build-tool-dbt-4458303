@@ -28,3 +28,13 @@ Happy modeling!
 [0m09:05:34.934131 [debug] [MainThread]: Command `dbt init` succeeded at 09:05:34.933984 after 21.91 seconds
 [0m09:05:34.934577 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d2510e161a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d2512fb0670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d250eb60580>]}
 [0m09:05:34.935024 [debug] [MainThread]: Flushing usage events
+[0m01:23:34.036215 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x769afe9821a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x769afc828df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x769afc828e20>]}
+
+
+============================== 01:23:34.137390 | 32bde654-eb00-4146-b7f9-ca8363e3ef7b ==============================
+[0m01:23:34.137390 [info ] [MainThread]: Running with dbt=1.6.1
+[0m01:23:34.138225 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'log_path': 'logs', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'write_json': 'True', 'introspect': 'True', 'no_print': 'None', 'static_parser': 'True', 'profiles_dir': '/home/vscode/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt init', 'log_cache_events': 'False', 'quiet': 'False', 'warn_error': 'None', 'printer_width': '80', 'log_format': 'default', 'debug': 'False', 'target_path': 'None'}
+[0m01:23:48.539445 [info ] [MainThread]: A project called nyc_parking_violation already exists here.
+[0m01:23:48.540567 [debug] [MainThread]: Command `dbt init` succeeded at 01:23:48.540403 after 14.59 seconds
+[0m01:23:48.541235 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x769afe9821a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x769b00b0c6a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x769afc6a8430>]}
+[0m01:23:48.542467 [debug] [MainThread]: Flushing usage events
